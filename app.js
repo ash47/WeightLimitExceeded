@@ -18,5 +18,5 @@ app.get('/', function(req, res){
 
 // Setup http server
 http.listen(3000, function(){
-    var socket = io();
+    console.log('Listening on *:3000');
 });
